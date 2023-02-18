@@ -11,8 +11,12 @@
             "id": "7be2c29566e0ff4d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SDI/teo/Clase 06-02-2023.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a73ee1de412d03dd",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SDI/teo/Clase 06-02-2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SDI/teo/Clase 06-02-2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "SDI/teo/Clase 06-02-2023.md"
+              }
             }
           }
         ]
@@ -140,11 +149,11 @@
   },
   "active": "7be2c29566e0ff4d",
   "lastOpenFiles": [
+    "SDI/teo/Clase 30-01-2023.md",
+    "SDI/teo/Clase 06-02-2023.md",
+    "SDI/teo/Clase 26-01-2023.md",
     "SSI/lab/Clase 03-02-2023 (Practica 1).md",
     "SDI/sem/Clase 17-02-2023 (Segundo seminario).md",
-    "SDI/teo/Clase 26-01-2023.md",
-    "SDI/teo/Clase 06-02-2023.md",
-    "SDI/teo/Clase 30-01-2023.md",
     "SSI/lab/Clase 17-02-2023 (Practica 3).md",
     "SSI/lab/Clase 10-02-2023 (Practica 2).md"
   ]
