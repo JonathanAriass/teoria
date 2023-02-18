@@ -83,6 +83,8 @@ Para recuperar el codigo se pueden utilizar embellecedores: http://jsnice.org/ y
 Para crackear la password de un archivo, user, etc, usar el siguiente comando:
 > john --wordlist:rockyou.txt file/account
 
+Mirar esta pagina para ejemplos de john the ripper: https://www.openwall.com/john/doc/EXAMPLES.shtml
+
 ## Crunch 
 Vamos a usar crunch para generar un diccionario, por ejemplo para generar un diccionario para crackear una contraseña, en este caso la del usuario ssiuser que es test123...
 Nosotros sabemos que empieza por test y termina por tres puntos
