@@ -11,8 +11,12 @@
             "id": "b3979c946545b903",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SDI/teo/Clase 20-02-2023.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a73ee1de412d03dd",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SDI/teo/Clase 20-02-2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SDI/teo/Clase 20-02-2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "SDI/teo/Clase 20-02-2023.md"
+              }
             }
           }
         ]
@@ -138,7 +147,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b81459b859242dae",
+  "active": "b3979c946545b903",
   "lastOpenFiles": [
     "SDI/teo/Clase 13-02-2023.md",
     "SSI/lab/Clase 17-02-2023 (Practica 3).md",
