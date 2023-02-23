@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a73ee1de412d03dd",
@@ -147,8 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b3979c946545b903",
+  "active": "b81459b859242dae",
   "lastOpenFiles": [
+    "SDI/teo/Img/MVC&N-Capas.png",
+    "SDI/teo/Img/DTO.png",
+    "SDI/teo/Img/Facade.png",
+    "SDI/teo/Img/LayersAndTiers.png",
+    "SDI/teo/Img/N-Capas.png",
+    "SDI/teo/Img/MVC.png",
     "SDI/teo/Clase 13-02-2023.md",
     "SSI/lab/Clase 17-02-2023 (Practica 3).md",
     "SSI/lab/Clase 10-02-2023 (Practica 2).md",
