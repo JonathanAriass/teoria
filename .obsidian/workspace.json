@@ -54,9 +54,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "787fd4eea10e4a96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SSI/teo/TEMA 5.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98dae75a488aa61f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SSI/teo/TEMA 6.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -123,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SSI/teo/MEDALLAS.md",
+                "file": "SSI/teo/TEMA 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SSI/teo/MEDALLAS.md",
+                "file": "SSI/teo/TEMA 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SSI/teo/MEDALLAS.md"
+                "file": "SSI/teo/TEMA 6.md"
               }
             }
           }
@@ -184,60 +208,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "0d329fd88d415653",
-    "type": "floating",
-    "children": [
-      {
-        "id": "36a3e3a5dbedd703",
-        "type": "window",
-        "children": [
-          {
-            "id": "6f6fffb182f73949",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8c2b65bd0508b4b8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "SSI/teo/MEDALLAS.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 44,
-        "y": 61,
-        "width": 1426,
-        "height": 797,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "8c2b65bd0508b4b8",
+  "active": "98dae75a488aa61f",
   "lastOpenFiles": [
-    "SSI/teo/TEMA 3.md",
+    "SSI/teo/TEMA 5.md",
+    "SSI/teo/TEMA 6.md",
+    "SSI/teo/img/IDSvsIPS.png",
+    "SSI/teo/img/SNI.png",
+    "Pasted image 20230508200134.png",
+    "SSI/teo/img/DMZs.png",
+    "SSI/teo/img/ProxyFirewall.png",
     "SSI/teo/MEDALLAS.md",
+    "SSI/teo/TEMA 4.md",
+    "SSI/teo/TEMA 3.md",
     "SSI/teo/TEMA 2.md",
     "SSI/teo/TEMA 1.md",
-    "SSI/teo/TEMA 4.md",
     "Pasted image 20230320003829.png",
     "Pasted image 20230320003346.png",
     "Pasted image 20230319120710.png",
     "SSI/teo/img/Pasted image 20230318093402.png",
     "SSI/teo/img/Pasted image 20230319120320.png",
-    "SSI/teo/img/Pasted image 20230319110007.png",
-    "SSI/teo/img/Pasted image 20230318122430.png",
-    "SSI/teo/img/Pasted image 20230318114117.png",
-    "SSI/teo/img/Pasted image 20230318093807.png",
-    "SSI/teo/img/NAT.png",
     "SSI/teo/img",
     "SSI/teo",
     "DLP/teo/Clase 07-03-2023 (Semántico).md",
