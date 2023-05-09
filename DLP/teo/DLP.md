@@ -2,4 +2,4 @@
 
 
 # ANALISIS LEXICO
-![[Lexico.svg]]
+![[[Lexico.svg](https://github.com/JonathanAriass/teoria/blob/main/Excalidraw/Lexico.svg)]]
