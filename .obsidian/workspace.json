@@ -8,66 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "51b60e843c533933",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SSI/teo/TEMA 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b485c932ef015152",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SSI/teo/TEMA 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "818360d3b98f19f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SSI/teo/TEMA 3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b788e9f1e36747ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SSI/teo/TEMA 4.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "787fd4eea10e4a96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SSI/teo/TEMA 5.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "98dae75a488aa61f",
             "type": "leaf",
             "state": {
@@ -80,7 +20,7 @@
             }
           },
           {
-            "id": "2892842219a381d8",
+            "id": "fa9e19a0ee38b5f4",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -88,9 +28,19 @@
                 "file": "Excalidraw/Drawing 2023-05-10 22.35.13.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "2892842219a381d8",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Lexico.md"
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -219,15 +169,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2892842219a381d8",
+  "active": "fa9e19a0ee38b5f4",
   "lastOpenFiles": [
+    "Excalidraw/Lexico.md",
+    "Excalidraw/Drawing 2023-05-10 22.35.13.excalidraw.md",
+    "SSI/teo/TEMA 6.md",
+    "Pasted Image 20230511160800_896.png",
     "Pasted Image 20230511104325_982.png",
     "Pasted Image 20230511103556_832.png",
     "Pasted Image 20230511095730_793.png",
     "Pasted Image 20230510231013_187.png",
     "Pasted Image 20230510225634_571.png",
-    "SSI/teo/TEMA 6.md",
-    "Excalidraw/Drawing 2023-05-10 22.35.13.excalidraw.md",
     "SSI/teo/TEMA 5.md",
     "SSI/teo/TEMA 1.md",
     "Untitled.canvas",
@@ -235,9 +187,6 @@
     "Pasted Image 20230509163312_292.png",
     "Pasted Image 20230509163042_214.png",
     "Pasted Image 20230509160432_862.png",
-    "Pasted Image 20230509154710_040.png",
-    "Pasted Image 20230509152426_111.png",
-    "Excalidraw/Lexico.md",
     "Excalidraw/INtroduccion.md",
     "Excalidraw",
     "DLP/teo/DLP.md",
