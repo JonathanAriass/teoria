@@ -14,8 +14,19 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "56a0ace0f5524ec1",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Sintactico.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Excalidraw/Sintactico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Excalidraw/Sintactico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +131,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Excalidraw/Sintactico.md"
+              }
             }
           }
         ]
@@ -139,10 +154,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e61e7b70d5cf0652",
+  "active": "56a0ace0f5524ec1",
   "lastOpenFiles": [
-    "Excalidraw/Sintactico.md",
+    "Excalidraw/Sintactico.svg",
+    "Excalidraw/Semantico.md",
     "Excalidraw/Drawing 2023-05-10 22.35.13.excalidraw.md",
+    "Excalidraw/Sintactico.md",
     "Pasted Image 20230510164008_006.png",
     "Excalidraw/Lexico.md",
     "Pasted Image 20230511160800_896.png",
