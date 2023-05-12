@@ -11,10 +11,8 @@
             "id": "cc8f6b27aecdc18a",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-05-10 22.35.13.excalidraw.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -83,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-05-10 22.35.13.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-05-10 22.35.13.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-05-10 22.35.13.excalidraw.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -145,12 +139,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cc8f6b27aecdc18a",
+  "active": "e61e7b70d5cf0652",
   "lastOpenFiles": [
-    "Excalidraw/Lexico.md",
-    "Excalidraw/Drawing 2023-05-10 22.35.13.excalidraw.md",
-    "Pasted Image 20230511160800_896.png",
     "Excalidraw/Sintactico.md",
+    "Excalidraw/Drawing 2023-05-10 22.35.13.excalidraw.md",
+    "Pasted Image 20230510164008_006.png",
+    "Excalidraw/Lexico.md",
+    "Pasted Image 20230511160800_896.png",
     "DLP/teo/DLP.md"
   ]
 }
