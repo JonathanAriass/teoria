@@ -101,3 +101,27 @@ Habra que hacer un esfuerzo para que la seguridad no afecte a la usabilidad de l
 
 ## AST (Application Security Testing)
 Las actividades de testing son criticas para detectar problemas de seguridad. Esto implica introducir herramientas AST en el proceso de desarrollo con el uso de pipelines en CI (Continous Integration).
+
+Tipos de herrramientas:
+- SCA (Software Composition Analysis): gestionan el uso de componentes open source de un aplicacion (escaneo automatico de codigo para ver si cumplen licencias, tienen vulnerabilidades, etc)
+- SAST (Static Application Security Testing): prueban estructuras internas, no su funcionalidad
+- DAST (Dynamic Application Security Testing): metodo de prueba de caja negra que introduce errores para probar las rutas de ejecucion que estos provocan
+- IAST (Interactive Application Security Testing):  evalua el rendimiento y detecta vulnerabilidades
+
+Donde podemos implementar test de seguridad en DevOps:
+1. En el IDE
+2. Pre-commit (busqueda de secretos)
+3. En el pipeline (build, deploy, etc)
+4. Fuera del pipeline (mantenimiento)
+	1. A nivel de repositorio (herramientas SCA y SAST)
+	2. Mantenimiento periodico
+	3. Pruebas unitarias
+	4. Gestion de vulnerabilidades continua
+
+## Despliegue y mantenimiento seguros
+Para matener nuestra aplicacion desplegada tenemos que tener en cuenta ciertas cosas como:
+- Sistemas de monitorizacion, log y alertas de seguridad continuas
+- Habra que usar una API Gateway
+- WAFs (Web Application Firewalls): modulos de los principales servidores web que protegen ante ataques
+- RASP (Runtime Applicatoin Self-Protection): capaces de inspeccionar el comportamiento de app y su contexto
+- UEBA (User and Entity Behavior Analytics): 
