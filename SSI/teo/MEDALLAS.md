@@ -334,3 +334,198 @@ El comportamiento del usuario tambien debe ser auditado para crear un rastro de 
 - Usuarios estandar: alteracion de archivos, inicios de sesion, accesos no autorizados, ...
 - Administradores: comandos de privilegios elevados, modificaciones de entorno de red, ...
 ---
+
+
+
+# Tema 5
+> Comprender el concepto de DMZ
+
+Son zonas de red aisladas dentro de la red interna de una empresa. Se implementa con cortafuegos (perimetral). Se suelen usar dos cortafuegos para aumentar la seguridad de las redes, tanto del lado LAN como del lado de las conexion a internet.
+
+
+---
+> Conocer los ataques red modernos
+
+Hoy en dia los atacantes se centrar en ataques mas centrados en el usuario, ya que la mayoria de las aplicaciones tienen buenas capas de seguridad, por ello se buscan estos puntos de ataque:
+- BYOD (Bring Your Own Device): escenario en el que la empresa permite dispositivos externos
+- Teletrabajo: por ejemplo conexiones con VPN salta muchas protecciones
+- Aplicaciones en la nube: no podemos asegurar la seguridad de las conexiones
+
+
+---
+> Conocer los servicios proporcionados por CDNs
+
+Content Delivery Network (CDN) es un servicio basado en la nube que proporciona una capa de seguridad adicional con servicios como:
+- Protección anti DDoS
+- Conexiones https adecuadas
+- Firewall de aplicaciones web (no gratis)
+- Técnicas para prevenir amenazas (spam, hotlinking o conexiones de clientes malintencionadas)
+
+
+---
+> Saber como enumerar los CMS
+
+Las herramientas de identificación de CMS son:
+- Wpscan
+- Doopescan
+- Joomscan
+
+
+---
+> Comprender el concepto de firewall y sus distintos tipos
+
+Un firewall está diseñado para bloquear acceso no autorizado, pero normalmente permitiendo el tráfico saliente. Los diferentes tipos son:
+- Firewalls hardware: maquinas personalizadas para maximiar el rendimiento de red
+- Firewalls de software: ejecutan un programa de firewall en el PC
+- Firewalls hibridos: firewalls basados en software que se ejecutan en hardware comun, pero con mayor rendimiento
+
+
+---
+> Ser capaz de diferenciar diseños de red seguros de los inseguros
+
+Un diseño nada seguro sera tener un servidor unico on-premises para todas las capas de la aplicacion. Una medida que seguiria siendo insuficiente seria la de contratar un servicio en la nube Anti-DDoS, un filtro de trafo o tener conexiones seguras HTTPs.
+Una solucion practica para presupuestos limitados sera contratar tanto un servicio en la nube para la seguridad como otro para alojar el servidor con su correspondiente firewall.
+
+
+---
+> Comprender por qué la segmentación y defensa de la red en profundidad es importante
+
+La segmentación es algo vital puesto que si hay un fallo en la seguridad este se extendería al resto en caso de no existir segmentación de la red.
+
+
+---
+> Saber como enumerar puertos y servicios con escaneo activo
+
+Para tener una enumeración rápida usaremos nmap que nos devuelve información sobre los puertos abiertos y su información en caso de existir. También podemos obtener información de servicios FTP y SSH por ejemplo.
+
+
+---
+> Saber como enumerar servicios HTTP y extraer información de sus archivos
+
+Para obtener información de servicios HTTP podemos utilizar herramientas como:
+- dirb para la busqueda de contenido web oculto
+- dirbuster similar a dirb
+- gobuster, fuerza bruta para enumeración de urls, DNS y host virtuales
+
+También podemos escanear el robots.txt en busqueda de informacion oculta en la web. 
+
+---
+> Entender el proposito y articular las distintas técnicas de reconocimiento del MITRE ATT&CK
+
+MITRE ATT&CK es una base de conocimientos internacional libre y accesible de tácticas y técnicas de adversarios basadas en observaciones del mundo real para asi poder protegerse ante dichos ataques.
+
+La primera fase es la de reconocimiento (Reconnaisance) en la cual el usuario esta tratando de recopilar información ya sea de forma activa o pasiva.
+
+Los métodos de escaneo activos son los siguientes:
+- Busqueda de servicios
+- Busqueda de puertos
+- Busqueda de información de usuario
+
+
+---
+> Comprender los múltiples componentes de la infraestructura de red segura (SNI)
+
+Los componentes principales de una SNI son:
+- Firewalls de red y aplicaciones
+- Dos DMZ con firewalls IPS (publico y privado)
+- Dos LAN internas con firewalls IPS:
+	- Interna sin información confidencial
+	- Segura con toda la información sensible cifrada
+- Sistema de log y monitorización
+
+---
+
+
+
+# Tema 6
+> Entender los principales ataques XSS (tipo 1 y 2)
+
+Reflected XXS (tipo 1): inyeccion de codigo en peticiones HTTP
+Stored XXS (tipo 2): se podra acceder a la entrada de los usuarios
+
+
+---
+> Entender los principios de los ataques SQL Injection y CSRF
+
+En los ataques de inyección de SQL el atacante podrá obtener acceso a la base de datos inyectando codigo en las diferentes entradas de la página, asi como en las peticiones.
+
+Y por otro lado las Cross-Site Request Forgery (CRSF) son aquellos ataques en los que los usuarios estarán haciendo acciones sin darse cuenta o bien se estan capturando las peticiones.
+
+
+---
+> Entender el significado de la filosofía "pushing left"
+
+Cuanto antes se tengan en cuenta las medidas de seguridad en el desarrollo de software más facil serán estas de arreglar en caso de un fallo en el sistema.
+
+
+---
+> Entender porque el uso de lenguajes no memory-safe impone más necesidades de seguridad
+
+Esto se debe a que se pueden bloquear servicios o aplicaciones encontrando fallos de memory leaks en el codigo. La parte buena de esto es el rendimiento de la aplicacion.
+
+
+---
+> Entender los principios de diseño del software seguro y como se integran en la SSDLC
+- Minimo privilegio
+- Valores por defecto a prueba de fallos
+- Mediacion completa
+- Separacoin de acceso
+- Confianza minima
+- Economia de mecanismo
+- Minimizar mecanismos comunes
+- Diseño sencillo y comprensible
+- Diseño abierto
+- Capas (principio de separacion)
+- Abstraccion
+- Modularidad
+- Vinculacion completa
+- Diseño por iteraciones
+
+
+---
+> Comprender los distintos mecanismos de MFA
+
+Los diferentes tipos de MFA son los siguientes:
+- Token SMS
+- Token por Email
+- Token hardware como USB
+- Token software (generacion de tokens dinamica)
+- Telefono
+- Verificacion biometrica (FaceID)
+
+
+---
+> Comprender el threat modeling y otros principios de diseño seguro
+
+El thread modeling consiste en identificar amenazas potenciales para un sistema, empresa o negocio. Se necesitara un stackeholder de la aplicacion o negocio y deben aportar los riesgos que ven en el sistema. Deben de buscar cualquier riesgo como si fuesen atacantes.
+
+Por otro lado tenemos otros principios de diseños seguros como el hecho de escribir un codigo que sea seguro evitando el uso de muchas librerias, uso de Gateways para las APIs, evitar almacenar secretos en publico, etc.
+
+
+---
+> Comprender la importancia del testing en la seguridad del software
+
+Cuando pruebas las aplicaciones se ven muchos fallos que a simple vista no se podrian detectar, por ello habra que crear pruebas para la aplicacion que prueben la seguridad.
+
+
+---
+> Entender los requisitos de seguridad a incluir en cualquier aplicación
+
+Los diferentes requisitos de seguridad para cualquier aplicacion son los siguientes:
+- Requisitos de cifrado (Tema 2)
+- Requisitos de manejo de datos
+- Requisitos de autenticacion
+- Requisitos de seguridad de codigo (librerias, backups, configuraciones seguras, etc)
+
+
+---
+> Diferenciar entre los distintos tipos de herramientas de comprobación de seguridad en la SSDLC
+
+Las diferentes herramientas son:
+- SCA (Software Composition Analysis): escaneo de codigo automatico para cumplimiento de licencias, etc
+- SAST (Static Application Security Testing): prueban estructuras internas, no funcionalidad
+- DAST (Dynamic Application Security Testing): evalua a base de probar errores por fuera bruta
+- IAST (Interactive Application Security Testing): evalua rendimiento y detecta vulnerabilidades
+
+
+---

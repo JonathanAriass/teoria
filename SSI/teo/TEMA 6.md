@@ -124,4 +124,22 @@ Para matener nuestra aplicacion desplegada tenemos que tener en cuenta ciertas c
 - Habra que usar una API Gateway
 - WAFs (Web Application Firewalls): modulos de los principales servidores web que protegen ante ataques
 - RASP (Runtime Applicatoin Self-Protection): capaces de inspeccionar el comportamiento de app y su contexto
-- UEBA (User and Entity Behavior Analytics): 
+- UEBA (User and Entity Behavior Analytics): herramienta de detección de anomalías basada en IA
+
+## Fallos en diseño de webs
+- Rotura del control de acceso
+- Fallos criptográficos
+- Inyección
+- Diseño inseguro
+- Mala configuración de la seguridad
+- Usar componentes vulnerables o desactualizados
+- Fallos de identificación y autenticación
+- Fallos en la integridad del software o sus datos
+- Fallos en log y monitorización
+- Server-side Request Forgery (SSRF)
+
+## Ataques típicos
+- Reflected Cross-Site Scripting (Reflected XSS): inyección de código en peticiones HTTP
+- Stored Cross-Site Scripting (Stores XSS): pueden acceder a entradas de los usuarios
+- SQL Injection
+- Cross-Site Request Forgery (CRSF): obliga al usuario a ejecutar acciones no deseadas
