@@ -1,46 +1,49 @@
 {
   "main": {
-    "id": "8818c4d27def76e0",
+    "id": "0e496045ad08e16f",
     "type": "split",
     "children": [
       {
-        "id": "d222d569edc59948",
+        "id": "2bf26fec8f0adda8",
         "type": "tabs",
         "children": [
           {
-            "id": "cc8f6b27aecdc18a",
+            "id": "98dae75a488aa61f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SSI/teo/TEMA 6.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
-            "id": "56a0ace0f5524ec1",
+            "id": "2892842219a381d8",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Sintactico.md"
+                "file": "Excalidraw/Lexico.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "5a84b5d223a2d4cb",
+    "id": "798e4b90b81d3b71",
     "type": "split",
     "children": [
       {
-        "id": "50b6306ff85ac57f",
+        "id": "c2b40501b9cb31e1",
         "type": "tabs",
         "children": [
           {
-            "id": "e61e7b70d5cf0652",
+            "id": "b81459b859242dae",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -50,7 +53,7 @@
             }
           },
           {
-            "id": "e133995d53bec553",
+            "id": "513077952e2c83ad",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,10 +68,10 @@
             }
           },
           {
-            "id": "fc6b9c830f822850",
+            "id": "24ed11e4fa9557b3",
             "type": "leaf",
             "state": {
-              "type": "bookmarks",
+              "type": "starred",
               "state": {}
             }
           }
@@ -76,23 +79,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "0c111d5aeb215930",
+    "id": "a73ee1de412d03dd",
     "type": "split",
     "children": [
       {
-        "id": "65ec9b379ec86a94",
+        "id": "225938b22435640a",
         "type": "tabs",
         "children": [
           {
-            "id": "6bb23d4607dd5dc1",
+            "id": "efd8e2116a4d35bb",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Sintactico.md",
+                "file": "SSI/teo/TEMA 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,19 +108,19 @@
             }
           },
           {
-            "id": "477c93805468ed2b",
+            "id": "53e58a9e75c5c591",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Sintactico.md",
+                "file": "SSI/teo/TEMA 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "fa651dbe81c15cc1",
+            "id": "217e4c1bae92b419",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -127,12 +131,12 @@
             }
           },
           {
-            "id": "b9271fb4a52b7b79",
+            "id": "8de533cba8569548",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Sintactico.md"
+                "file": "SSI/teo/TEMA 6.md"
               }
             }
           }
@@ -154,15 +158,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "56a0ace0f5524ec1",
+  "active": "98dae75a488aa61f",
   "lastOpenFiles": [
+    "Pasted Image 20230510164008_006.png",
     "Excalidraw/Sintactico.svg",
+    "Excalidraw/Sintactico.md",
     "Excalidraw/Semantico.md",
     "Excalidraw/Drawing 2023-05-10 22.35.13.excalidraw.md",
-    "Excalidraw/Sintactico.md",
-    "Pasted Image 20230510164008_006.png",
     "Excalidraw/Lexico.md",
+    "SSI/teo/TEMA 6.md",
     "Pasted Image 20230511160800_896.png",
-    "DLP/teo/DLP.md"
+    "Pasted Image 20230511104325_982.png",
+    "Pasted Image 20230511103556_832.png",
+    "Pasted Image 20230511095730_793.png",
+    "Pasted Image 20230510231013_187.png",
+    "Pasted Image 20230510225634_571.png",
+    "SSI/teo/TEMA 5.md",
+    "SSI/teo/TEMA 1.md",
+    "Untitled.canvas",
+    "Pasted Image 20230509170334_938.png",
+    "Pasted Image 20230509163312_292.png",
+    "Pasted Image 20230509163042_214.png",
+    "Excalidraw/INtroduccion.md",
+    "Excalidraw",
+    "DLP/teo/DLP.md",
+    "DLP.pdf",
+    "SSI/teo/MEDALLAS.md",
+    "SSI/teo/TEMA 4.md",
+    "SSI/teo/TEMA 3.md",
+    "SSI/teo/TEMA 2.md",
+    "SSI/teo/img",
+    "SSI/teo",
+    "DLP/teo/Clase 07-03-2023 (Semántico).md",
+    "ASW/teo/Clase 15-03-2023.md",
+    "SDI/teo/Clase 13.md",
+    "Untitled",
+    "ASW/teo",
+    "ASW",
+    "SDI/teo/Clase 06-02-2023.md",
+    "DLP/teo",
+    "DLP",
+    "SDI/sem/Clase 17-02-2023 (Segundo seminario).md",
+    "SDI/teo/Clase 13-02-2023.md",
+    "SDI/teo/Clase 20-02-2023.md",
+    "SDI/teo_20230226200448.zip",
+    "SDI/teo/Clase 26-01-2023.md",
+    "SDI/teo/Clase 30-01-2023.md",
+    "SSI/lab/Clase 17-02-2023 (Practica 3).md",
+    "SSI/lab/Clase 10-02-2023 (Practica 2).md",
+    "Clase 17-02-2023 (Practica 3).md"
   ]
 }
