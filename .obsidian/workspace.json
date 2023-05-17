@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9629dd963c7d6fda",
+        "id": "2bf26fec8f0adda8",
         "type": "tabs",
         "children": [
           {
-            "id": "f862e02b1b0afc33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SSI/teo/TEMA 6.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "37d66b8cf0c663b2",
+            "id": "98dae75a488aa61f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,17 +20,16 @@
             }
           },
           {
-            "id": "b3cfb313c5568bee",
+            "id": "2892842219a381d8",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/GeneracionCodigo.md"
+                "file": "Excalidraw/Lexico.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -87,21 +74,12 @@
               "type": "starred",
               "state": {}
             }
-          },
-          {
-            "id": "73d8cdb2ed14f702",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a73ee1de412d03dd",
@@ -179,33 +157,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "37d66b8cf0c663b2",
+  "active": "98dae75a488aa61f",
   "lastOpenFiles": [
-    "Excalidraw/GeneracionCodigo.md",
-    "DLP/teo/DLP.md",
-    "Excalidraw/MAPL.md",
-    "Excalidraw/MAPL.svg",
-    "SSI/teo/TEMA 5.md",
-    "SSI/teo/TEMA 6.md",
-    "SSI/teo/MEDALLAS.md",
-    "Pasted Image 20230510164008_006.png",
-    "Excalidraw/Sintactico.svg",
-    "Excalidraw/Sintactico.md",
     "Excalidraw/Semantico.md",
+    "Excalidraw/Semantico.svg",
+    "DLP/teo/DLP.md",
+    "Excalidraw/GeneracionCodigo.md",
+    "Pasted Image 20230514233311_930.png",
+    "SSI/teo/TEMA 6.md",
+    "Pasted Image 20230513164228_815.png",
+    "Pasted Image 20230513161136_051.png",
+    "Pasted Image 20230513154217_292.png",
+    "Pasted Image 20230513133628_244.png",
+    "Pasted Image 20230513131653_985.png",
+    "Pasted Image 20230513130357_404.png",
+    "Pasted Image 20230513125700_173.png",
+    "Pasted Image 20230513125331_912.png",
+    "Excalidraw/MAPL.md",
+    "Excalidraw/Sintactico.md",
     "Excalidraw/Drawing 2023-05-10 22.35.13.excalidraw.md",
     "Excalidraw/Lexico.md",
-    "Pasted Image 20230511160800_896.png",
-    "Pasted Image 20230511104325_982.png",
-    "Pasted Image 20230511103556_832.png",
-    "Pasted Image 20230511095730_793.png",
-    "Pasted Image 20230510231013_187.png",
-    "Pasted Image 20230510225634_571.png",
+    "SSI/teo/TEMA 5.md",
     "SSI/teo/TEMA 1.md",
     "Untitled.canvas",
-    "Pasted Image 20230509170334_938.png",
     "Excalidraw/INtroduccion.md",
     "Excalidraw",
     "DLP.pdf",
+    "SSI/teo/MEDALLAS.md",
     "SSI/teo/TEMA 4.md",
     "SSI/teo/TEMA 3.md",
     "SSI/teo/TEMA 2.md",
@@ -226,7 +204,6 @@
     "SDI/teo_20230226200448.zip",
     "SDI/teo/Clase 26-01-2023.md",
     "SDI/teo/Clase 30-01-2023.md",
-    "SSI/lab/Clase 17-02-2023 (Practica 3).md",
-    "SSI/lab/Clase 10-02-2023 (Practica 2).md"
+    "SSI/lab/Clase 17-02-2023 (Practica 3).md"
   ]
 }

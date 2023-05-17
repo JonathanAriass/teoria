@@ -6,6 +6,8 @@
 # ANALISIS SINTACTICO
 ![alt text](https://github.com/JonathanAriass/teoria/blob/main/Excalidraw/Sintactico.svg?raw=true)
 
+# ANALISIS SEMANTICO
+![alt text](https://github.com/JonathanAriass/teoria/blob/main/Excalidraw/Semantico.svg?raw=true)
 # MAPL
 ![alt text](https://github.com/JonathanAriass/teoria/blob/main/Excalidraw/MAPL.svg?raw=true)
 
