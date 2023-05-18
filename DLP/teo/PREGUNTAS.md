@@ -1,6 +1,15 @@
 ## ANALISIS LEXICO
 > Escribe una gramatica libre de contexto (CFG) para reconocer el siguiente lenguaje:
-> { [n (A| B)m ]n : n,m≥0}, donde V T = {A, B, [, ]}
+> { \[n (A| B)m ]n : n,m≥0}, donde V T = {A, B, \[, ]}
+
+Las gramaticas libres de contexto estan formadas por CFG = {Vt, Vn, S, P}
+	Vt = {A, B, \[, ]}
+	Vn = {p, p2}
+	S = P
+	P = {
+		P -> '\[' p '\]' | P2
+		P2 -> empty | P2 'A' | P2 'B'
+	 }
 
 
 ---
@@ -26,7 +35,7 @@ Se eligen siempre la mas larga y en el caso de que sean iguales el que este defi
 ---
 > Define "one-step" derivation
 
-La derivacion es el resultado de aplicar cualquier transformacion a una cadena.
+La derivacion es el resultado de coger uno de los simbolos no-terminales de una cadena y sustituirlo por la parte derecha de una relga que tenga como antecedente dicho simbolo.
 
 
 ---
@@ -44,7 +53,7 @@ Secuencia de simbolos
 ---
 > Cual es la principal diferencia entre CFGs y expresiones regulares?
 
-Ambas son metalenguajes, pero las gramaticas libres de contexto (CFG) se utilizan en el sintactivo (conjunto de reglas que dicen como reconocer las estructuras de un lenguaje) y las expresiones regulares en el sintactico (permite describir la reglas para validar los lexemas, que son las cadenas validas de un lenguaje).
+Ambas son metalenguajes, pero las gramaticas libres de contexto (CFG) se utilizan en el sintactico (conjunto de reglas que dicen como reconocer las estructuras de un lenguaje) y las expresiones regulares en el lexico (permite describir la reglas para validar los lexemas, que son las cadenas validas de un lenguaje).
 
 
 ---
@@ -68,7 +77,13 @@ Metalenguaje que permite reconocer los token de un lenguaje. Secuencia de caract
 ---
 > Escibre una gramatica libre de contexto (CFG) para una secuencia de As (posible vacia) con separador.
 
-S: (A.(','A)\*)?
+Una gramatica libre de contexto viene dada por la siguiente estructura: CFG = {Vt, Vn, s, P}
+Vt = {LETTER}
+Vn = {a}
+S= A
+P= {
+	a -> empty | LETTER | a','a
+}
 
 
 ---
@@ -98,7 +113,7 @@ Las gramaticas no ambigüas son:
 
 a. One-step derivations: es la accion de coger uno de los simbolos no-terminales de una cadena y sustituirlo por la parte derecha de una regla que tenga como antecedente a dicho simbolo.
 
-b. Derivation: una derivacion de una cada es cualquiera de las cadenas que se obtienen a partir de ella aplicando una o mas transformaciones.
+b. Derivation: una derivacion de una cadena es cualquiera de las cadenas que se obtienen a partir de ella aplicando una o mas transformaciones.
 
 c. String: secuencia de simbolos (terminales y no-terminal)
 
@@ -584,3 +599,84 @@ public Type call(List<Expression> args) {
 }
 ```
 
+---
+
+
+
+## Lenguajes y representaciones intermedias
+> Porque se usaron maquinas abstractas al principio en la construccion de los compiladores?
+
+Para reducir la cantidad de traducciones de codigo realizadas en un compilador redirigible (GCC).
+
+
+---
+> Cual es la principal diferencia entre una maquina abstracta y virtual?
+
+La cantidad de cosas que se pueden hacer, es decir, una maquina abstracta es un modelo que sirve para una cosa en especifico como pueden se las maquinas de Turing.
+
+
+---
+> En que fases de representaciones de alto nivel se usan? Para que se usan?
+
+En la fase del semantico (inferencia y comprobacion de tipos), en generacion de codigo y en la optimizacion de codigo.
+
+
+---
+> Que es la representacion intermedia de un compilador?
+
+Es la representacion del enlace entre el front y el back-end. Nos permite representar una cantidad de lenguajes fuente y generar código para una gran cantidad de plataformas de destino.
+
+
+---
+> Nombra dos representaciones intermedias para un nivel medio.
+
+- Maquinas de pila (Java, .NET, p-machine)
+- Codigo de tres direcciones, TAC o 3AC (UCode, LLVM, ...)
+
+
+---
+> Escribe en codigo de tres direcciones la siguiente expresion: v\[a+3\*g\].field
+
+t1 <- 3\*g
+t2 <- a+t1
+t3 <- v\[t2\]
+t4 <- t3.field
+
+
+---
+> Escribe el codigo MAPL para la siguiente expresion: v\[a+3\*g\].second
+> 	- La direccion de memoria de v es 0 y es un array de 10 elementos
+> 	- Los elementos en v tienen dos campos: first (real con offset 0) y second (char con offset 4)
+> 	- La direccion de memoria de a es 50 y es un char
+> 	- La direccion de memoria de g es 51 y es un real
+
+pusha 0
+pusha 50                  // Se coge a
+loadb                       // Se carga un char
+b2i                           // Char -> int
+i2f                            // int -> double
+push 3                     // metemos el 3
+i2f
+pusha 51
+loadf
+mulf
+addf
+f2i
+pushi 5                    // Numero de bytes del array (4 bytes campo first y 1 byte campo second)
+muli
+addi
+push 4                     // Offset del segundo campo
+addi
+
+
+---
+> Escribe un ejemplo de alto nivel en el cual se haga uso de la instruccion `dup` en MAPL.
+
+a=2
+b = a \* a           // Se hace uso aqui para duplicar el valor de a en la pila
+
+
+---
+> Cuales son los pros y las contras de las representaciones intermedias de bajo nivel?
+
+Permiten la maxima optimizacion para un microprocesador especifico. Por otro lado tenemos que son dificiles de comprender para una persona sin experiencia en representaciones de bajo nivel.
