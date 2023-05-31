@@ -34,3 +34,23 @@ Podemos usar la siguiente pagina https://www.exploit-db.com/google-hacking-datab
 ## Shodan
 Haciendo una busqueda para apache vemos como hay bastantes maquinas con el puerto 21 abierto (FTP) siendo esto una vulnerabilidad grande
 
+## Censys
+Sirve para hacer escaneo de rangos de IP de forma similar a Shodan pero de forma mas estructurada.
+
+## The Wayback Machine
+Sirve para buscar el historial de paginas antiguas de cualquier sitio web. Para realizar una busqueda: `http://web.archive.org/web/*/<URL>/*`
+
+## Descubrimiento de subdominios
+Hay varias opciones:
+- Knockpy: `$ python3 knockpy.py <domain>`
+![[Knockpy.png]]
+- dnsenum: `$dnsenum <domain>`
+![[dnsenum.png]]
+
+## Analisis de rango de IPs
+Para los dominios acabados en `.com` usar https://whois.arin.net y para los acabados en `.es` usar www.nic.es.
+
+`Zmap` es un escaner de red rapido single-packet optimizado. Su uso es el siguiente: `zmap -p80 88.151.16.0/24`.
+
+## Inspeccoin de privacidad de la web
+Para esto usaremos `Blacklight`: https://themarkup.org/blacklight que es escanea y descubre tech de tracking de usuarios en web.
