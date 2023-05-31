@@ -4,67 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9629dd963c7d6fda",
+        "id": "628a08e17d4f0544",
         "type": "tabs",
         "children": [
           {
-            "id": "f862e02b1b0afc33",
+            "id": "2cb1d17c330a14aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SSI/teo/TEMA 6.md",
+                "file": "SSI/lab/Clase 24-03-2023 (Practica 8).md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "37d66b8cf0c663b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DLP/teo/DLP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2bb759d04977c2a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DLP/teo/PREGUNTAS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26c4800ba49cbc30",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Semantico.md"
-              }
-            }
-          },
-          {
-            "id": "b3cfb313c5568bee",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Lexico.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +66,7 @@
             }
           },
           {
-            "id": "73d8cdb2ed14f702",
+            "id": "f7d15848c3651069",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -122,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a73ee1de412d03dd",
@@ -139,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DLP/teo/PREGUNTAS.md",
+                "file": "SSI/lab/Clase 24-03-2023 (Practica 8).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DLP/teo/PREGUNTAS.md",
+                "file": "SSI/lab/Clase 24-03-2023 (Practica 8).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DLP/teo/PREGUNTAS.md"
+                "file": "SSI/lab/Clase 24-03-2023 (Practica 8).md"
               }
             }
           }
@@ -197,58 +151,56 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "2bb759d04977c2a2",
+  "active": "2cb1d17c330a14aa",
   "lastOpenFiles": [
-    "Pasted image 20230517095303.png",
-    "Pasted Image 20230514233311_930.png",
-    "Excalidraw/Semantico.svg",
-    "Excalidraw/Semantico.md",
-    "DLP/teo/PREGUNTAS.md",
-    "Excalidraw/Sintactico.md",
-    "DLP/teo/img/AST_4.png",
-    "DLP/teo/img/AST_3.png",
-    "DLP/teo/img/AST_2.png",
-    "DLP/teo/DLP.md",
-    "DLP/teo/img/AST_1.png",
-    "DLP/teo/img",
-    "SSI/teo/TEMA 6.md",
-    "Excalidraw/Lexico.md",
-    "Excalidraw/GeneracionCodigo.md",
-    "Excalidraw/MAPL.md",
-    "Excalidraw/MAPL.svg",
-    "SSI/teo/TEMA 5.md",
-    "SSI/teo/MEDALLAS.md",
-    "Pasted Image 20230510164008_006.png",
-    "Excalidraw/Sintactico.svg",
-    "Excalidraw/Drawing 2023-05-10 22.35.13.excalidraw.md",
-    "Pasted Image 20230511160800_896.png",
-    "SSI/teo/TEMA 1.md",
     "Untitled.canvas",
-    "Excalidraw/INtroduccion.md",
-    "Excalidraw",
-    "DLP.pdf",
+    "SSI/teo/img/SNI.png",
+    "SSI/teo/img/ProxyFirewall.png",
+    "SSI/teo/img/Pasted image 20230319120320.png",
+    "SSI/teo/img/Pasted image 20230319110007.png",
+    "SSI/teo/img/Pasted image 20230318122430.png",
+    "SSI/teo/img/Pasted image 20230318114117.png",
+    "SSI/teo/img/Pasted image 20230318093807.png",
+    "SSI/teo/img/Pasted image 20230318093402.png",
+    "SSI/teo/img/NAT.png",
+    "SSI/teo/img/IDSvsIPS.png",
+    "SSI/teo/TEMA 6.md",
+    "SSI/teo/TEMA 5.md",
     "SSI/teo/TEMA 4.md",
-    "SSI/teo/TEMA 3.md",
     "SSI/teo/TEMA 2.md",
+    "SSI/teo/TEMA 3.md",
+    "SSI/teo/TEMA 1.md",
+    "SSI/teo/MEDALLAS.md",
     "SSI/teo/img",
     "SSI/teo",
-    "DLP/teo/Clase 07-03-2023 (Semántico).md",
-    "ASW/teo/Clase 15-03-2023.md",
-    "SDI/teo/Clase 13.md",
-    "Untitled",
-    "ASW/teo",
-    "ASW",
-    "SDI/teo/Clase 06-02-2023.md",
+    "SDI/teo/TEMA 9.md",
+    "SDI/teo/TEMA 8.md",
+    "SDI/teo/TEMA 7.md",
+    "Excalidraw/Sintactico.md",
+    "Excalidraw/Semantico.md",
+    "Excalidraw/MAPL.md",
+    "Excalidraw/Lexico.md",
+    "Excalidraw/INtroduccion.md",
+    "Excalidraw/GeneracionCodigo.md",
+    "Excalidraw",
+    "DLP/teo/PREGUNTAS.md",
+    "DLP/teo/DLP.md",
+    "DLP/teo/img",
     "DLP/teo",
     "DLP",
-    "SDI/sem/Clase 17-02-2023 (Segundo seminario).md",
-    "SDI/teo/Clase 13-02-2023.md",
-    "SDI/teo/Clase 20-02-2023.md",
-    "SDI/teo/Clase 26-01-2023.md",
-    "SDI/teo/Clase 30-01-2023.md"
+    "DLP.pdf",
+    "ASW/teo/Clase 15-03-2023.md",
+    "ASW/teo",
+    "ASW",
+    "SSI/lab/Clase 24-03-2023 (Practica 8).md",
+    "SSI/lab/Clase 17-03-2023 (Practica 7).md",
+    "SSI/lab/Clase 17-02-2023 (Practica 3).md",
+    "SSI/lab/Clase 10-02-2023 (Practica 2).md",
+    "SSI/lab/Clase 10-03-2023 (Practica 6).md",
+    "SSI/lab/Clase 03-03-2023 (Practica 5).md",
+    "SSI/lab/img"
   ]
 }
