@@ -53,7 +53,7 @@ Un Bean o el identificador/nombre del Bean.
 
 >En una arquitectura MVC en JEE que elemento se utilizaria para implementar el modelo (logica de negocio y datos)
 
-Beans junto con clases Java.
+Beans (clases de Java).
 
 
 
@@ -65,7 +65,7 @@ Nos desacopla la forma de consumir servicios  a traves de interfaces.
 
 > Con que patron se reduce el acoplamiento entre capas?
 
-El patron fachada
+El patron fachada.
 
 
 
@@ -111,10 +111,11 @@ La segunda linea, todas las personas que esten logeadas pueden entrar.
 > Que genera el siguiente fragmento de codigo Thymeleaf?
 
 ```html
-<div sec:authorized="">
+<div sec:authorized="!isAuthenticated()">
 	<p>Bienvenido</p>
 </div>
 ```
+Genera el parrafo de bienvenida en caso de que no haya un usuario autenticado en la pagina.
 
 
 
@@ -126,7 +127,7 @@ De servidor y en el cliente, siendo las del servidor mas seguras.
 
 > Que es el objeto sesion y por un ejemplo de uso comun.
 
-Un objeto sesion es un conunto de variables que se almacena en una cookie con el identificador y sirve para todo el tema de logeos, recuperar datos por clave.
+Un objeto sesion es un conjunto de variables que se almacena en una cookie con el identificador y sirve para todo el tema de logeos, recuperar datos por clave.
 
 
 
