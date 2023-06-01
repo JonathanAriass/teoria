@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "628a08e17d4f0544",
+        "id": "af459bade681f08c",
         "type": "tabs",
         "children": [
           {
-            "id": "2cb1d17c330a14aa",
+            "id": "a746a9ad15d28257",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SSI/lab/Clase 24-03-2023 (Practica 8).md",
+                "file": "SSI/lab/Clase 31-03-2023 (Practica 11).md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SSI/lab/Clase 24-03-2023 (Practica 8).md",
+                "file": "SSI/lab/Clase 31-03-2023 (Practica 11).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SSI/lab/Clase 24-03-2023 (Practica 8).md",
+                "file": "SSI/lab/Clase 31-03-2023 (Practica 11).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SSI/lab/Clase 24-03-2023 (Practica 8).md"
+                "file": "SSI/lab/Clase 31-03-2023 (Practica 11).md"
               }
             }
           }
@@ -151,22 +151,32 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2cb1d17c330a14aa",
+  "active": "a746a9ad15d28257",
   "lastOpenFiles": [
+    "SSI/lab/Clase 24-03-2023 (Practica 8).md",
+    "SSI/lab/Clase 31-03-2023 (Practica 10).md",
+    "SSI/lab/Clase 17-02-2023 (Practica 3).md",
+    "SSI/lab/Clase 10-03-2023 (Practica 6).md",
+    "SSI/lab/Clase 10-02-2023 (Practica 2).md",
+    "SSI/lab/Clase 03-03-2023 (Practica 5).md",
+    "SSI/lab/Clase 03-02-2023 (Practica 1).md",
+    "SSI/lab/Clase 31-03-2023 (Practica 11).md",
+    "SSI/lab/img/lab11.png",
+    "DLP.pdf",
+    "SSI/lab/img/SQLInjection.png",
+    "SSI/lab/img/access_log.png",
+    "Pasted image 20230601121801.png",
+    "SSI/lab/img/lab10.png",
+    "Pasted image 20230317101355.png",
+    "Pasted image 20230317100638.png",
+    "Pasted image 20230317095139.png",
     "Untitled.canvas",
     "SSI/teo/img/SNI.png",
     "SSI/teo/img/ProxyFirewall.png",
-    "SSI/teo/img/Pasted image 20230319120320.png",
-    "SSI/teo/img/Pasted image 20230319110007.png",
-    "SSI/teo/img/Pasted image 20230318122430.png",
-    "SSI/teo/img/Pasted image 20230318114117.png",
-    "SSI/teo/img/Pasted image 20230318093807.png",
-    "SSI/teo/img/Pasted image 20230318093402.png",
-    "SSI/teo/img/NAT.png",
-    "SSI/teo/img/IDSvsIPS.png",
     "SSI/teo/TEMA 6.md",
     "SSI/teo/TEMA 5.md",
     "SSI/teo/TEMA 4.md",
@@ -191,16 +201,8 @@
     "DLP/teo/img",
     "DLP/teo",
     "DLP",
-    "DLP.pdf",
-    "ASW/teo/Clase 15-03-2023.md",
     "ASW/teo",
     "ASW",
-    "SSI/lab/Clase 24-03-2023 (Practica 8).md",
-    "SSI/lab/Clase 17-03-2023 (Practica 7).md",
-    "SSI/lab/Clase 17-02-2023 (Practica 3).md",
-    "SSI/lab/Clase 10-02-2023 (Practica 2).md",
-    "SSI/lab/Clase 10-03-2023 (Practica 6).md",
-    "SSI/lab/Clase 03-03-2023 (Practica 5).md",
     "SSI/lab/img"
   ]
 }
