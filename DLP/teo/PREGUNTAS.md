@@ -173,13 +173,13 @@ Un ejemplo seria el siguiente: \<nodo>:\<categoria> -> \<tipos hijos>
 ---
 > Dibuja el AST para el siguiente fragmento: a = b = f(a, b);
 
-![[AST_1.png]]
+![alt text](https://github.com/JonathanAriass/teoria/blob/main/DLP/teo/img/AST_1.png)
 
 
 ---
 > Dada la siguiente gramatica en ANTLR, dibuja el AST para la siguiente entrada: -a > b + c
 
-![[AST_2.png]]
+![alt text](https://github.com/JonathanAriass/teoria/blob/main/DLP/teo/img/AST_2.png)
 
 
 ---
@@ -252,7 +252,7 @@ operacionAritmetica: expresion -> left:expr right:expr
 identificador: expresion -> string
 entero: expresion -> string
 campo -> string 
-![[AST_3.png]]
+![alt text](https://github.com/JonathanAriass/teoria/blob/main/DLP/teo/img/AST_3.png)
 
 
 ---
@@ -292,7 +292,8 @@ exp addop term - factor ->
 term + term mulpo factor - 6 ->
 factor + factor \* 5 - 6 ->
 3 + 4 \* 5 - 6
-![[AST_4.png]]
+![alt text](https://github.com/JonathanAriass/teoria/blob/main/DLP/teo/img/AST_4.png)
+
 
 b. 3 \* (4 - 5 + 6) ->
 exp ->
